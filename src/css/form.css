@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url(https://res.cloudinary.com/dgcjq4kbf/image/upload/v1714479760/Rectangle_6_d4pqpt.png);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 700px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.user-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.user-icon {
+  margin-right: 8px;
+   position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.user-input {
+  /* width: 100%; */
+  padding-left: 32px;
+}
+
+
